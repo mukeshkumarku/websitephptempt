@@ -2,6 +2,7 @@
 include 'menu.php';
 include 'header.php';
 
+
 ?>
 
   <!-- index.php main body -->
@@ -46,3 +47,6 @@ include 'header.php';
     </div>
   </div>
 </div><br>
+<?php
+include 'footer.php';
+?>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title>Bootstrap Example</title>
+   <title>Organization </title>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="assets/bootstrap-dist/css/bootstrap.min.css">
@@ -55,7 +55,12 @@
       <center><h3>I'm an adventurer</h3></center>
     </div>
      <div class="col-sm-3" style="background-color:#1abc9c;">
-      <p>Sed ut perspiciatis...</p> 
+      <p>Sed ut perspiciatis...</p>
+        <?php
+        $today = date("d/m/Y");
+        echo $today;
+        ?> 
+
       <marquee behavior="scroll" direction="up">
       <img src="images/bg_1.jpg" width="200" height="80" alt="W3docs" />
       <img src="images/bg_1.jpg" class="img-rounded" height="80" alt="Cinque Terre">

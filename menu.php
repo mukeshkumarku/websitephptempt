@@ -5,8 +5,8 @@
   <a href="about.php">About</a>
   <a href="contact.php">Contact</a>
   <a href="agent.php">Agent</a>
-  <a href="blog.php">Blog</a>
-  <a href="properties.php">Properties</a>
+  <a href="report.php">Report</a>
+  <a href="appointment.php">Appointment</a>
   <a href="services.php">Services</a>
 </div>
 <style>

@@ -56,14 +56,14 @@ div.container {
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="country">Country</label>
-    <input type="text" id="lname" name="country" placeholder="Your last name..">
+    <label for="mobile">Mobile</label>
+    <input type="text" id="mname" name="mobile" placeholder="Your last name..">
 
   <!-- This is data which are send from browser to server. -->
     <input type="submit" name="sub" value="Submit">
   </form>
 </div>
 
-
-</body>
-</html>
+<?php
+include 'footer.php';
+?>

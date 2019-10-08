@@ -5,18 +5,17 @@ include 'header.php';
 ?>
 
 
-<div class="container">
-  <div class="jumbotron">
-    <h1>Welcome Tutorial</h1>      
-    <p>Welcome is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+
     <?php
     //This is data which are send from browser to server.
     //and after then server send the response.
     $name=$_POST['firstname'];
     $lname=$_POST['lastname'];
-    $mname=$_POST['mobile'];
+    $cname=$_POST['country'];
     echo "Welcome ".$name;
     echo "<br>Welcome ".$lname;
+        echo "<br>Welcome ".$cname;
+
   //echo "<br>Welcome ".$cname;
     ?>
 
@@ -25,9 +24,9 @@ include 'header.php';
 		$connect= new mysqli("localhost","root","","mukeshci") 
 		or die("ERROR:could not connect to the database!!!!");
 		extract($_POST);
-		if(isset($sub))
+		if(isset($save))
 		{
-			$query="insert into empinfo values('','$firstname','$lastname','$mobile')";
+			$query="insert into empinfo2 values('','$firstname','$lastname','$country')";
 			if($connect->query($query))
 			{
 			echo '<br><h3>congrates!! data saved</h3></br>';
@@ -40,7 +39,7 @@ include 'header.php';
 
      ?>
 
-  </div>
+  
 
 
   <p>This is some text.</p>      
